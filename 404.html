@@ -1,94 +1,168 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="title">404 Not Found - Win12 Online</title>
+  <title data-i18n="page404.title">页面未找到 HTTP 404 Not Found – Win12 Online</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      -webkit-tap-highlight-color: transparent;
-    }
     :root {
-      background-color: #111111;
-      color: #eeeeee;
-      font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans SC', 'Noto Sans', 'Microsoft YaHei UI', 'Segoe UI', sans-serif;
-      user-select: none;
+      color-scheme: light dark;
+      --bg: #f8f9fa;
+      --text: #1a1a1a;
+      --muted: #777777;
+      --accent: #2983cc;
+      --footer-border: #eaecf0;
+      --theme-1: #ad6eca;
+      --theme-2: #3b91d8;
     }
-    :root, body {
-      height: 100%;
-      overflow: hidden;
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111111;
+        --text: #eeeeee;
+        --muted: #999999;
+        --footer-border: #2d2d2d;
+      }
     }
-    .content-wrapper {
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    html {
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei UI", "Noto Sans SC", sans-serif;
+      line-height: 1.75;
+    }
+
+    body {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      justify-content: space-between;
+      width: min(83vw, 1180px);
+      margin: 0 auto;
+    }
+
+    header {
+      margin: 10vh 0 2.5vh;
+      padding-bottom: 1em;
+      border-bottom: 5px solid transparent;
+      border-image: linear-gradient(90deg, var(--theme-1), var(--theme-2)) 1;
+    }
+
+    header a {
+      display: inline-flex;
       align-items: center;
-      height: 100%;
-      padding: 10px;
-    }
-    .content {
-      text-align: center;
-    }
-    h1 {
-      font-size: 2.5rem;
-    }
-    h2 {
-      font-size: 2rem;
-    }
-    .info {
-      margin-top: 10px;
-      color: #bbbbbb;
-    }
-    a {
+      gap: 10px;
+      color: var(--text);
+      font-size: 1.5em;
+      font-weight: 700;
       text-decoration: none;
-      color: #2983cc;
     }
+
+    header img {
+      width: 35px;
+      height: 35px;
+    }
+
+    main {
+      width: min(70vw, 960px);
+      margin: 1em auto;
+      padding: 1em;
+    }
+
+    h1 {
+      margin: 1em 0 0.5em;
+      font-size: 1.625em;
+      line-height: 1.5;
+    }
+
+    p {
+      margin: 0.5em 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
     a:hover {
-      color: #49a3ec;
+      color: #999999;
     }
-    .btn {
-      color: #3b91d8;
-      border: solid #3b91d8 1px;
-      border-radius: 67px;
-      padding: 8px 12px;
-      margin: 5px;
+
+    em,
+    footer {
+      color: var(--muted);
+      font-style: normal;
     }
-    .btn:hover {
-      color: #a9c3ff;
-      border-color: #a9c3ff;
+
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5em 1em;
+      margin: 2.5vh 0 10vh;
+      padding-top: 1em;
+      border-top: 1px solid var(--footer-border);
+      font-size: 0.875em;
     }
-    .blank {
-      height: 25px;
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+    }
+
+    @media (max-width: 767px) {
+      body {
+        width: 83vw;
+      }
+
+      main {
+        width: 100%;
+      }
+
+      footer > * {
+        flex: 1 1 100%;
+      }
     }
   </style>
 </head>
-<body class="dark">
-  <div class="content-wrapper">
-    <div class="content">
-      <h1>404</h1>
-      <h2>Not Found</h2>
-      <p class="info" id="info">We could not find the resource you requested.</p>
-      <div class="blank"></div>
-      <a class="btn" id="home" href="/">Back to homepage</a>
+<body>
+  <header>
+    <a href="/" title="Win12 Online">
+      <img src="/icon/logo.svg" alt="Win12 Online" width="35" height="35">
+      <span>Win12 Online</span>
+    </a>
+  </header>
+
+  <main>
+    <h1>
+      <span data-i18n="page404.heading">页面未找到</span>
+      <em data-i18n="page404.subtitle">HTTP 404 Not Found</em>
+    </h1>
+    <p data-i18n="page404.info1">呜喵，我们未能找到您所访问的网址。</p>
+    <p data-i18n="page404.info2">建议您检查请求网址是否正确。</p>
+    <p>
+      <span data-i18n="page404.home.prefix">您可以返回</span><a href="desktop.html" data-i18n="page404.home.link">主页</a><span data-i18n="page404.home.suffix">。</span>
+    </p>
+  </main>
+
+  <footer>
+    <div data-i18n="page404.copyright">© 2023-2026 Win12 Online</div>
+    <div class="footer-links">
+      <a href="desktop.html" data-i18n="page404.nav.home">主页</a>
+      <a href="https://status.win12.tech/status/win12" data-i18n="page404.nav.status" target="_blank" rel="noopener noreferrer">状态监测</a>
+      <a href="https://github.com/win12-online/win12" data-i18n="page404.nav.repo" target="_blank" rel="noopener noreferrer">仓库</a>
     </div>
-  </div>
-  <script>
-    // 非常简单的 i18n...
-    // 既然是 404 页面，就没必要引入那么多库了
-    const lang = navigator.language || navigator.userLanguage;
-    const i18n = {
-      'zh-CN': {
-        title: '404 Not Found - Windows 12 网页版',
-        info: '我们找不到您所请求的资源。',
-        home: '返回主页',
-      },
-    };
-    if (lang && i18n[lang]) {
-      for (const k in i18n[lang]) {
-        document.getElementById(k).innerText = i18n[lang][k];
-      }
-    }
-  </script>
+  </footer>
 </body>
 </html>

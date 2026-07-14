@@ -62,17 +62,17 @@ Thus this project was born (yes, the birth of this project was just that sudden)
 
 ## Disclaimer
 
-This project (Win12 Online, abbreviated as "Win12OL") is a **purely non-commercial open-source hobby project** that explores and simulates graphical operating system interaction experiences through web technologies.
+Win12 Online (hereinafter referred to as "Win12OL" or "this project") is a **non-commercial open-source hobby project** developed collaboratively by [contributors](https://codeberg.org/win12-online/win12/activity/contributors), which aims to explore and simulate graphical operating system interaction experiences through web technologies.
 
 > [!important]
-> This project **is not affiliated with, endorsed by, sponsored by, or authorized by Microsoft Corporation or its affiliates**.
+> You should fully understand that: this project **has no affiliation, sponsorship, authorization, or endorsement relationship with Microsoft Corporation of the United States or its affiliated entities**.
 >
 > - The project name "Win12" and similar references are used solely as design-style descriptors and do not represent Microsoft products.
-> - All visual elements, including layout designs and color schemes, are the result of **independent re-creation** by the developers based on publicly available materials. They are not copies, modifications, or derivatives of Microsoft's original copyrighted assets.
-> - Most icons have been redrawn by the developers. The reference icons for these redraws, as well as the few remaining unredrawn icons, are icons from the current version of Windows and are used solely for identification and display purposes. Their copyright belongs to Microsoft Corporation.
-> - This project does not contain any binary code, APIs, internal logic, or other proprietary components from Microsoft Windows operating systems.
+> - All visual elements, including layout designs and color schemes, are the result of **independent re-creation** by [contributors](https://codeberg.org/win12-online/win12/activity/contributors) based on publicly available materials. They do not directly copy, modify, or distribute Microsoft's original executable assets.
+> - Most icons have been redrawn by [contributors](https://codeberg.org/win12-online/win12/activity/contributors) based on the icons of the current version of Windows; the remaining few unredrawn icons are used solely for identification and display purposes, and their copyright belongs to Microsoft Corporation.
+> - This project does not contain any proprietary binary code, closed-source algorithms, or trade secrets of Microsoft Windows operating systems.
 >
-> All code, assets, and documentation in this project are provided **for learning and research purposes only**. Users must not use this project to infringe upon the legal rights of Microsoft or any third-party rights holders. Any legal liability arising from the use of this project shall not be borne by the project contributors or the open-source community.
+> You should fully understand that: all code, assets, and documentation of this project are provided **for learning and technical research purposes only**. You must not use this project to carry out any acts that infringe upon the legitimate rights and interests of Microsoft or any third-party rights holders. The [contributors](https://codeberg.org/win12-online/win12/activity/contributors) of this project shall not bear any responsibility for any consequences resulting from the use of this project.
 
 ## Online Experience
 

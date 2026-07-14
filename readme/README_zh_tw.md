@@ -38,6 +38,7 @@
 
 - [Windows 12 網頁版](#windows-12-網頁版)
   - [前言](#前言)
+  - [免責聲明](#免責聲明)
   - [線上體驗](#線上體驗)
   - [效果展示](#效果展示)
   - [前景規劃](#前景規劃)
@@ -57,6 +58,20 @@
 很久以前 tjy-gitnub 在看到 Windows 12 概念版（Powered by PowerPoint）後深受啟發，決定做一個 Windows 12 網頁版，就像 [Windows 11 網頁版](https://win11.blueedge.me/) 一樣。它擁有精美的 UI 設計、流暢豐富的動畫，以及各種進階功能。
 
 於是就有了這個專案（是的，這個專案的誕生就是這麼突然）
+
+## 免責聲明
+
+Win12 Online（以下簡稱「Win12OL」或「本專案」）是一個**非商業性的開源興趣專案**，由[貢獻者](https://codeberg.org/win12-online/win12/activity/contributors)合作開發，旨在透過 Web 技術探索與模擬圖形作業系統的互動體驗。
+
+> [!important]
+> 您應當充分了解到：本專案**與美國微軟公司（Microsoft Corporation）及其關聯實體沒有任何隸屬、贊助、授權或認可關係**。
+>
+> - 專案名稱「Win12」及類似表述乃描述專案介面風格之參考，不代表微軟產品。
+> - 專案中一切介面佈局設計、配色等視覺元素，係[貢獻者](https://codeberg.org/win12-online/win12/activity/contributors)基於公開資料進行**獨立再創作**的結果，不曾直接複製、修改或散佈微軟的原始可執行資產。
+> - 大多數圖示已由[貢獻者](https://codeberg.org/win12-online/win12/activity/contributors)參考目前版本 Windows 圖示進行重繪；其餘少數未重繪的圖示，僅用於識別與展示目的，其版權歸微軟公司所有。
+> - 本專案不包含任何微軟 Windows 作業系統的專有二進位程式碼、閉源演算法及商業機密。
+>
+> 您應當充分了解到：本專案全部程式碼、素材及文件等僅供學習與技術研究之用途。您不得利用本專案實施任何侵犯微軟或其第三方權利人合法權益的行為。本專案[貢獻者](https://codeberg.org/win12-online/win12/activity/contributors)不為任何對本專案的使用造成的結果承擔任何責任。
 
 > 目前行動端適配還不太完善，開桌面版網站湊合著用吧 `>v-)o`
 

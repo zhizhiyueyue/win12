@@ -38,6 +38,7 @@
 
 - [Windows 12 version web](#windows-12-网页版)
   - [Avant-propos](#前言)
+  - [Avertissement](#avertissement)
   - [Expérience en ligne](#在线体验)
   - [Démonstration des effets](#效果展示)
   - [Planification à venir](#前景规划)
@@ -57,6 +58,20 @@
 Il y a longtemps, après avoir vu la version conceptuelle de Windows 12 (Powered by PowerPoint), tjy-gitnub a été profondément inspiré et a décidé de créer une version web de Windows 12, à l'instar de [Windows 11 网页版](https://win11.blueedge.me/). Elle présente un design d'interface élégant, des animations fluides et riches, ainsi que diverses fonctionnalités avancées.
 
 C'est ainsi que ce projet est né (oui, la naissance de ce projet a été aussi soudaine).
+
+## Avertissement
+
+Win12 Online (ci-après dénommé « Win12OL » ou « ce projet ») est un **projet open-source non commercial et de loisir**, développé en collaboration par des [contributeurs](https://codeberg.org/win12-online/win12/activity/contributors), qui vise à explorer et simuler des expériences d'interaction de systèmes d'exploitation graphiques via les technologies web.
+
+> [!important]
+> Vous devez bien comprendre que : ce projet **n'a aucune relation d'affiliation, de parrainage, d'autorisation ou de reconnaissance avec la société américaine Microsoft Corporation ou ses entités affiliées**.
+>
+> - Le nom du projet « Win12 » et les expressions similaires ne servent que de référence pour décrire le style de l'interface et ne représentent pas un produit Microsoft.
+> - Tous les éléments visuels, y compris les conceptions de mise en page et les jeux de couleurs, sont le résultat d'une **recréation indépendante** par les [contributeurs](https://codeberg.org/win12-online/win12/activity/contributors) à partir de documents publics. Ils ne copient, ne modifient ni ne distribuent directement les actifs exécutables originaux de Microsoft.
+> - La plupart des icônes ont été redessinées par les [contributeurs](https://codeberg.org/win12-online/win12/activity/contributors) en référence aux icônes de la version actuelle de Windows ; les quelques icônes restantes non redessinées sont utilisées uniquement à des fins d'identification et d'affichage, et leur droit d'auteur appartient à Microsoft Corporation.
+> - Ce projet ne contient aucun code binaire propriétaire, aucun algorithme à source fermée ni aucun secret commercial des systèmes d'exploitation Microsoft Windows.
+>
+> Vous devez bien comprendre que : tout le code, les ressources et la documentation de ce projet sont fournis **uniquement à des fins d'apprentissage et de recherche technique**. Vous ne devez pas utiliser ce projet pour commettre tout acte portant atteinte aux droits et intérêts légitimes de Microsoft ou de tout tiers ayant des droits. Les [contributeurs](https://codeberg.org/win12-online/win12/activity/contributors) de ce projet n'assument aucune responsabilité pour toute conséquence résultant de l'utilisation de ce projet.
 
 > L'adaptation pour mobile n'est pas encore très aboutie, utilisez la version bureau du site pour dépanner `>v-)o`
 
